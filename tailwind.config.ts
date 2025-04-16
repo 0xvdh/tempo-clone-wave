@@ -18,7 +18,25 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Roboto', 'sans-serif'],
+				'display': ['Playfair Display', 'serif'],
+			},
 			colors: {
+				'news-blue': {
+					DEFAULT: '#057BBF',
+					50: '#E6F3FB',
+					100: '#CCE7F7',
+					200: '#99CFEF',
+					300: '#66B8E7',
+					400: '#33A0DF',
+					500: '#057BBF',
+					600: '#046299',
+					700: '#034973',
+					800: '#02314D',
+					900: '#011826',
+				},
+				'news-red': '#E63946',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
